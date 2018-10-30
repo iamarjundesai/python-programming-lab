@@ -4,7 +4,7 @@ list=[]
 sum=0
 
 while 1:
-    msgbox("Welcome to NEW E Bazaar")
+    msgbox("Welcome to ARJUN'S NEW E Bazaar")
 
     msg ="In which category you want to buy items?"
     title = "NEW E Bazaar"
@@ -26,7 +26,7 @@ while 1:
 
         msg = "Is it your final choice(Press continue to continue shopping)"
         title = "Please Confirm"
-        msgbox("Thank you for buying at NEW E Bazaar")
+        msgbox("Thank you for buying ARJUN'S NEW E Bazaar")
     elif choice=="Clothing":
         msgbox("Welcome to Clothes bazaar")
         msg="What type of clothes?"
@@ -50,7 +50,7 @@ while 1:
 
         msg = "Is it your final choice(Press continue to continue shopping)"
         title = "Please Confirm"
-        msgbox("Thank you for buying at NEW E Bazaar")
+        msgbox("Thank you for buying at ARJUN'S NEW E Bazaar")
     elif choice=="Stationary":
         msgbox("Welcome to Stationary bazaar")
         msg="Choose your item?"
@@ -62,7 +62,7 @@ while 1:
 
         msg = "Is it your final choice(Press continue to continue shopping)"
         title = "Please Confirm"
-        msgbox("Thank you for buying at NEW E Bazaar")
+        msgbox("Thank you for buying at ARJUN'S NEW E Bazaar")
 
     if ccbox(msg, title):    #show a Continue/Cancel dialog
         list.append(choice)  
